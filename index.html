@@ -1,11 +1,14 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Academic website on mathematics, applications, teaching, and differential geometry.">
-  <title>Makroune Mathematics | Academic Website</title>
+
+  <meta name="description" content="Site académique consacré aux mathématiques, à leurs applications, à l'enseignement et à la géométrie différentielle.">
+
+  <title>Makroune Mathématiques | Site académique</title>
+
   <style>
     :root {
       --navy: #142b4a;
@@ -16,9 +19,13 @@
       --white: #ffffff;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
       margin: 0;
@@ -63,14 +70,18 @@
       font-size: 0.95rem;
     }
 
-    nav a:hover { color: white; text-decoration: underline; }
+    nav a:hover {
+      color: white;
+      text-decoration: underline;
+    }
 
     .hero {
       background: var(--light);
       padding: 85px 7%;
     }
 
-    .hero-inner, main {
+    .hero-inner,
+    main {
       max-width: 1000px;
       margin: auto;
     }
@@ -139,9 +150,14 @@
       background: white;
     }
 
-    .card h3 { color: var(--blue); margin-top: 0; }
+    .card h3 {
+      color: var(--blue);
+      margin-top: 0;
+    }
 
-    .muted { color: var(--muted); }
+    .muted {
+      color: var(--muted);
+    }
 
     .contact {
       background: var(--light);
@@ -155,242 +171,377 @@
       font-size: 0.9rem;
     }
 
-    a { overflow-wrap: anywhere; }
+    a {
+      overflow-wrap: anywhere;
+    }
 
     @media (max-width: 600px) {
-      header { padding: 18px 5%; }
-      nav { gap: 12px; }
-      .hero { padding: 55px 6%; }
-      section { padding: 42px 6%; }
+      header {
+        padding: 18px 5%;
+      }
+
+      nav {
+        gap: 12px;
+      }
+
+      .hero {
+        padding: 55px 6%;
+      }
+
+      section {
+        padding: 42px 6%;
+      }
     }
   </style>
 </head>
+
 <body>
+
+  <!-- Navigation principale -->
   <header>
     <div class="nav">
-      <a class="brand" href="#home">Makroune Mathematics</a>
-      <nav aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#teaching">Teaching</a>
+
+      <a class="brand" href="#accueil">
+        Makroune Mathématiques
+      </a>
+
+      <nav aria-label="Navigation principale">
+        <a href="#apropos">À propos</a>
+        <a href="#recherche">Recherche</a>
+        <a href="#enseignement">Enseignement</a>
         <a href="#agregation">Agrégation</a>
         <a href="#publications">Publications</a>
         <a href="#contact">Contact</a>
       </nav>
+
     </div>
   </header>
 
-  <div class="hero" id="home">
+  <!-- Page d'accueil -->
+  <div class="hero" id="accueil">
     <div class="hero-inner">
-      <div class="eyebrow">Mathematics · Research · Education</div>
-      <h1>Welcome to<br>Makroune Mathematics</h1>
+
+      <div class="eyebrow">
+        Mathématiques · Recherche · Enseignement
+      </div>
+
+      <h1>
+        Bienvenue sur<br>
+        Makroune Mathématiques
+      </h1>
+
       <p>
-        An academic space dedicated to mathematics, its applications,
-        geometric research, and the sharing of mathematical knowledge.
+        Un espace académique consacré aux mathématiques, à leurs
+        applications, à la recherche en géométrie et au partage
+        des connaissances mathématiques.
       </p>
-      <a class="button" href="#research">Explore my research</a>
-      <a class="button secondary" href="#teaching">Teaching resources</a>
+
+      <a class="button" href="#recherche">
+        Découvrir mes recherches
+      </a>
+
+      <a class="button secondary" href="#enseignement">
+        Ressources pédagogiques
+      </a>
+
     </div>
   </div>
 
   <main>
-   
-<section id="about">
-  <h2>Mathematics Educator &amp; Researcher</h2>
 
-  <p>
-    I am a Moroccan mathematics educator and researcher with a strong
-    interest in pure mathematics, differential geometry, and the
-    applications of mathematical ideas.
-  </p>
+    <!-- À propos -->
+    <section id="apropos">
 
-  <p>
-    I hold the title of <em>Professeur Agrégé de Mathématiques</em>
-    and am pursuing doctoral research in differential geometry at
-    <strong>Sidi Mohamed Ben Abdellah University (USMBA), Fez, Morocco</strong>,
-    under the supervision of
-    <strong>Professor Mohamed Tahar Kadaoui Abbassi</strong>.
-    My research focuses on locally conformally Kähler (LCK) geometry.
-  </p>
+      <h2>Mathématicien, enseignant et chercheur</h2>
 
-  <p>
-    My academic interests include complex geometry, Hermitian geometry,
-    geometric analysis, and the study of geometric structures on
-    complex manifolds.
-  </p>
+      <p>
+        Je suis un enseignant de mathématiques et chercheur marocain,
+        passionné par les mathématiques fondamentales, la géométrie
+        différentielle et les applications des idées mathématiques.
+      </p>
 
-  <p>
-    Through this website, I aim to share mathematical knowledge,
-    provide educational resources for Moroccan high-school, CPGE,
-    and university students, and present my research and scientific
-    publications.
-  </p>
-</section>
+      <p>
+        Je suis <em>professeur agrégé de mathématiques</em> et je
+        poursuis des recherches doctorales en géométrie différentielle
+        à l'<strong>Université Sidi Mohamed Ben Abdellah (USMBA),
+        à Fès, au Maroc</strong>, sous la direction du
+        <strong>Professeur Mohamed Tahar Kadaoui Abbassi</strong>.
+        Mes travaux portent sur la géométrie localement conformément
+        kählérienne (LCK).
+      </p>
 
+      <p>
+        Mes centres d'intérêt scientifiques comprennent la géométrie
+        complexe, la géométrie hermitienne, l'analyse géométrique et
+        l'étude des structures géométriques sur les variétés complexes.
+      </p>
 
-    <section id="research">
-      <h2>Research interests</h2>
-      <p>My research interests include the following areas.</p>
-      <div class="grid">
-        <div class="card">
-          <h3>Differential Geometry</h3>
-          <p>Geometric structures, Riemannian geometry, and complex manifolds.</p>
-        </div>
-        <div class="card">
-          <h3>Complex Geometry</h3>
-          <p>Locally conformally Kähler geometry and Hermitian structures.</p>
-        </div>
-        <div class="card">
-          <h3>Mathematical Analysis</h3>
-          <p>Analytical methods and their connections with geometric problems.</p>
-        </div>
-        <div class="card">
-          <h3>Applications of Mathematics</h3>
-          <p>Mathematical modelling, computational methods, and problem-solving.</p>
-        </div>
-      </div>
+      <p>
+        À travers ce site, je souhaite partager des connaissances
+        mathématiques, proposer des ressources pédagogiques aux élèves
+        des lycées marocains, aux étudiants des classes préparatoires
+        (CPGE) et aux étudiants universitaires, ainsi que présenter
+        mes recherches et mes publications scientifiques.
+      </p>
+
     </section>
 
-   
-    <section id="teaching">
-      <h2>Teaching Mathematics in Morocco</h2>
+    <!-- Recherche -->
+    <section id="recherche">
+
+      <h2>Axes de recherche</h2>
+
       <p>
-        Educational resources in mathematics for Moroccan high-school
-        students, CPGE students, and university learners. Find course notes,
-        exercises, corrected problems, and examination preparation materials.
+        Mes intérêts de recherche couvrent plusieurs domaines
+        des mathématiques.
       </p>
 
       <div class="grid">
+
         <div class="card">
-          <h3>High-School Mathematics</h3>
+          <h3>Géométrie différentielle</h3>
           <p>
-            Mathematics resources for the Moroccan secondary education system.
+            Structures géométriques, géométrie riemannienne
+            et variétés complexes.
           </p>
-          <ul>
-            <li>Tronc Commun</li>
-            <li>1ère année du Baccalauréat</li>
-            <li>2ème année du Baccalauréat</li>
-            <li>National and regional examinations</li>
-            <li>Courses, exercises, and solutions</li>
-          </ul>
         </div>
 
         <div class="card">
-          <h3>CPGE Mathematics</h3>
+          <h3>Géométrie complexe</h3>
           <p>
-            Rigorous mathematical training for students in Classes
-            Préparatoires aux Grandes Écoles in Morocco.
+            Géométrie localement conformément kählérienne (LCK)
+            et structures hermitiennes.
           </p>
-          <ul>
-            <li>MPSI and PCSI</li>
-            <li>MP and PSI</li>
-            <li>Algebra and linear algebra</li>
-            <li>Analysis and differential equations</li>
-            <li>Problem sheets and concours preparation</li>
-          </ul>
         </div>
 
         <div class="card">
-          <h3>University Mathematics</h3>
+          <h3>Analyse mathématique</h3>
           <p>
-            Mathematical resources for Moroccan university students,
-            particularly in Licence and Master programmes.
+            Méthodes analytiques et leurs liens avec
+            les problèmes géométriques.
           </p>
-          <ul>
-            <li>Algebra and real analysis</li>
-            <li>Complex analysis</li>
-            <li>Topology and functional analysis</li>
-            <li>Differential equations and numerical methods</li>
-            <li>Differential geometry</li>
-          </ul>
         </div>
+
+        <div class="card">
+          <h3>Mathématiques appliquées</h3>
+          <p>
+            Modélisation mathématique, méthodes numériques,
+            calcul scientifique et résolution de problèmes.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Enseignement -->
+    <section id="enseignement">
+
+      <h2>Enseignement des mathématiques au Maroc</h2>
+
+      <p>
+        Cette section propose des ressources pédagogiques destinées
+        aux élèves du secondaire, aux étudiants des CPGE et aux
+        étudiants universitaires au Maroc : cours, exercices,
+        problèmes corrigés et documents de préparation aux examens.
+      </p>
+
+      <div class="grid">
+
+        <!-- Lycée -->
+        <div class="card">
+
+          <h3>Mathématiques au lycée</h3>
+
+          <p>
+            Ressources pédagogiques adaptées au système
+            d'enseignement secondaire marocain.
+          </p>
+
+          <ul>
+            <li>Tronc commun</li>
+            <li>1ère année du baccalauréat</li>
+            <li>2ème année du baccalauréat</li>
+            <li>Examens nationaux et régionaux</li>
+            <li>Cours, exercices et corrigés</li>
+          </ul>
+
+        </div>
+
+        <!-- CPGE -->
+        <div class="card">
+
+          <h3>Mathématiques en CPGE</h3>
+
+          <p>
+            Formation mathématique approfondie destinée aux étudiants
+            des classes préparatoires aux grandes écoles au Maroc.
+          </p>
+
+          <ul>
+            <li>MPSI et PCSI</li>
+            <li>MP et PSI</li>
+            <li>Algèbre et algèbre linéaire</li>
+            <li>Analyse et équations différentielles</li>
+            <li>Problèmes et préparation aux concours</li>
+          </ul>
+
+        </div>
+
+        <!-- Université -->
+        <div class="card">
+
+          <h3>Mathématiques universitaires</h3>
+
+          <p>
+            Ressources destinées aux étudiants des universités
+            marocaines, notamment en licence et en master.
+          </p>
+
+          <ul>
+            <li>Algèbre et analyse réelle</li>
+            <li>Analyse complexe</li>
+            <li>Topologie et analyse fonctionnelle</li>
+            <li>Équations différentielles et méthodes numériques</li>
+            <li>Géométrie différentielle</li>
+          </ul>
+
+        </div>
+
       </div>
 
       <p>
-        <strong>Resources coming soon:</strong> downloadable lecture notes,
-        TD sheets, corrected exercises, past examinations, and mathematical
-        study materials.
+        <strong>Prochainement :</strong> cours téléchargeables,
+        feuilles de travaux dirigés, exercices corrigés, anciens
+        examens et autres ressources mathématiques.
       </p>
+
     </section>
 
-    
-    
+    <!-- Agrégation -->
     <section id="agregation">
-      <h2>Agrégation in Mathematics</h2>
+
+      <h2>Agrégation de mathématiques</h2>
+
       <p>
-        Resources and preparation materials for candidates pursuing the
-        Moroccan and French Agrégation in Mathematics. This section aims
-        to support rigorous mathematical training, problem-solving, and
-        preparation for written and oral examinations.
+        Cette section rassemble des ressources et des supports
+        de préparation aux concours d'agrégation de mathématiques
+        marocain et français. L'objectif est d'accompagner les
+        candidats dans leur formation mathématique, la résolution
+        de problèmes et la préparation des épreuves écrites et orales.
       </p>
 
       <div class="grid">
+
+        <!-- Agrégation marocaine -->
         <div class="card">
-          <h3>Moroccan Agrégation</h3>
+
+          <h3>Agrégation marocaine</h3>
+
           <p>
-            Resources for the Moroccan competitive examination in
-            mathematics, including course notes, exercises, problems,
-            and preparation for oral examinations.
+            Ressources pour la préparation au concours marocain
+            d'agrégation de mathématiques : cours, exercices,
+            problèmes et préparation aux épreuves orales.
           </p>
+
           <p class="muted">
-            Topics: Algebra, Analysis, Topology, Probability,
-            Numerical Analysis, and Mathematical Modelling.
+            Thèmes : algèbre, analyse, topologie, probabilités,
+            analyse numérique et modélisation mathématique.
           </p>
+
         </div>
 
+        <!-- Agrégation française -->
         <div class="card">
-          <h3>French Agrégation</h3>
+
+          <h3>Agrégation française</h3>
+
           <p>
-            Mathematical resources for candidates preparing for the
-            French Agrégation, with an emphasis on theoretical foundations,
-            rigorous proofs, and examination methodology.
+            Ressources mathématiques destinées aux candidats
+            préparant l'agrégation française, avec un accent sur
+            les fondements théoriques, la rigueur des démonstrations
+            et la méthodologie des épreuves.
           </p>
+
           <p class="muted">
-            Topics: Algebra, Analysis, Geometry, Probability,
-            and Oral Examination Preparation.
+            Thèmes : algèbre, analyse, géométrie, probabilités
+            et préparation aux épreuves orales.
           </p>
+
         </div>
+
       </div>
 
       <p>
-        <strong>Coming soon:</strong> downloadable notes, solved exercises,
-        selected problems, and oral examination resources.
+        <strong>Prochainement :</strong> notes de cours
+        téléchargeables, exercices corrigés, problèmes sélectionnés
+        et ressources pour les épreuves orales.
       </p>
+
     </section>
 
+    <!-- Publications -->
     <section id="publications">
-      <h2>Publications</h2>
+
+      <h2>Publications scientifiques</h2>
+
       <div class="card">
-        <h3>On exact locally conformally Kähler manifolds</h3>
+
+        <h3>
+          On exact locally conformally Kähler manifolds
+        </h3>
+
         <p>
-          Youssef Makroune and Mohamed Tahar Kadaoui Abbassi.
+          Youssef Makroune et Mohamed Tahar Kadaoui Abbassi.
         </p>
+
         <p class="muted">
-          Note di Matematica, 45 (2025), Supplement 1, 169–179.
+          Note di Matematica, volume 45 (2025),
+          supplément 1, pages 169–179.
         </p>
+
       </div>
+
       <p class="muted">
-        Further publications and preprints will be listed here.
+        D'autres publications et prépublications seront ajoutées
+        progressivement.
       </p>
+
     </section>
 
+    <!-- Contact -->
     <section id="contact" class="contact">
+
       <h2>Contact</h2>
+
       <p>
-        For academic enquiries, research discussions, or teaching-related
-        questions, please get in touch.
+        Pour toute question académique, discussion scientifique
+        ou demande concernant les ressources pédagogiques,
+        vous pouvez me contacter.
       </p>
+
       <p>
-        <strong>Email:</strong> Add your professional email address here.
+        <strong>Courriel :</strong>
+        Ajoutez ici votre adresse électronique professionnelle.
       </p>
+
       <p>
-        <strong>Affiliation:</strong> Add your current university affiliation here.
+        <strong>Affiliation :</strong>
+        Université Sidi Mohamed Ben Abdellah,
+        Fès, Maroc.
       </p>
+
     </section>
+
   </main>
 
+  <!-- Pied de page -->
   <footer>
-    <p>© 2026 Makroune Mathematics · Mathematics and Applications</p>
+
+    <p>
+      © 2026 Makroune Mathématiques · Mathématiques et applications
+    </p>
+
   </footer>
+
 </body>
 </html>
